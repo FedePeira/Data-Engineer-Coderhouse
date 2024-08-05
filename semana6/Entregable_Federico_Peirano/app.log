@@ -1,0 +1,145 @@
+2024-08-05 00:49:46,348 ::DataConnectionModule-> root - ERROR - Not able to upload data
+Mixing dicts with non-Series may lead to ambiguous ordering.
+2024-08-05 00:49:46,348 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-05 00:54:39,866 ::DataConnectionModule-> root - ERROR - Not able to upload data
+Mixing dicts with non-Series may lead to ambiguous ordering.
+2024-08-05 00:54:39,867 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-05 00:54:52,708 ::DataConnectionModule-> root - ERROR - Not able to upload data
+Mixing dicts with non-Series may lead to ambiguous ordering.
+2024-08-05 00:54:52,708 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-05 01:00:36,562 ::DataConnectionModule-> root - ERROR - Not able to upload data
+Mixing dicts with non-Series may lead to ambiguous ordering.
+2024-08-05 01:00:36,563 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-05 01:12:37,086 ::DataConnectionModule-> root - INFO - Data created:         id  visibility          dt  timezone      base          name
+0  3435910       10000  1722834479    -10800  stations  Buenos Aires
+2024-08-05 01:12:37,092 ::DataConnectionModule-> root - WARNING - Execute it before
+2024-08-05 01:12:40,120 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 01:12:40,126 ::DataConnectionModule-> root - ERROR - Failed to upload data to fedepr2345_coderhouse.stage_api_github:
+'Engine' object has no attribute 'cursor'
+2024-08-05 01:12:40,127 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'Engine' object has no attribute 'cursor'
+2024-08-05 01:12:40,127 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-05 10:40:37,026 ::DataConnectionModule-> root - INFO - Data created:         id  visibility          dt  timezone      base          name
+0  3435910       10000  1722868622    -10800  stations  Buenos Aires
+2024-08-05 10:40:37,040 ::DataConnectionModule-> root - WARNING - Execute it before
+2024-08-05 10:40:40,088 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 10:40:40,105 ::DataConnectionModule-> root - ERROR - Failed to upload data to fedepr2345_coderhouse.stage_api_github:
+'Engine' object has no attribute 'cursor'
+2024-08-05 10:40:40,105 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'Engine' object has no attribute 'cursor'
+2024-08-05 10:40:40,106 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-05 10:43:48,074 ::DataConnectionModule-> root - INFO - Data created:         id  visibility          dt  timezone      base          name
+0  3435910       10000  1722868622    -10800  stations  Buenos Aires
+2024-08-05 10:43:48,079 ::DataConnectionModule-> root - WARNING - Execute it before
+2024-08-05 10:43:50,835 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 10:43:50,845 ::DataConnectionModule-> root - ERROR - Failed to upload data to fedepr2345_coderhouse.stage_api_github:
+'Engine' object has no attribute 'cursor'
+2024-08-05 10:43:50,845 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'Engine' object has no attribute 'cursor'
+2024-08-05 10:43:50,846 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-05 10:44:50,565 ::DataConnectionModule-> root - INFO - Data created:         id  visibility          dt  timezone      base          name
+0  3435910       10000  1722868622    -10800  stations  Buenos Aires
+2024-08-05 10:44:50,571 ::DataConnectionModule-> root - WARNING - Execute it before
+2024-08-05 10:44:53,444 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 10:44:53,455 ::DataConnectionModule-> root - ERROR - Failed to upload data to fedepr2345_coderhouse.stage_api_github:
+'Engine' object has no attribute 'cursor'
+2024-08-05 10:44:53,455 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'Engine' object has no attribute 'cursor'
+2024-08-05 10:44:53,456 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-05 10:46:20,854 ::DataConnectionModule-> root - INFO - Data created:         id  visibility          dt  timezone      base          name
+0  3435910       10000  1722868622    -10800  stations  Buenos Aires
+2024-08-05 10:46:20,862 ::DataConnectionModule-> root - WARNING - Execute it before
+2024-08-05 10:46:23,738 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 10:46:23,749 ::DataConnectionModule-> root - ERROR - Failed to upload data to fedepr2345_coderhouse.stage_api_github:
+'Engine' object has no attribute 'cursor'
+2024-08-05 10:46:23,749 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'Engine' object has no attribute 'cursor'
+2024-08-05 10:46:23,749 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-05 10:52:33,536 ::DataConnectionModule-> root - INFO - Data created:         id  visibility          dt  timezone      base          name
+0  3435910       10000  1722869459    -10800  stations  Buenos Aires
+2024-08-05 10:52:33,541 ::DataConnectionModule-> root - WARNING - Execute it before
+2024-08-05 10:52:36,163 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 10:52:36,312 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 10:52:36,319 ::DataConnectionModule-> root - ERROR - Failed to upload data to fedepr2345_coderhouse.stage_api_github:
+'Engine' object has no attribute 'cursor'
+2024-08-05 10:52:36,319 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'Engine' object has no attribute 'cursor'
+2024-08-05 10:52:36,319 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-05 10:58:51,049 ::DataConnectionModule-> root - INFO - Data created:         id  visibility          dt  timezone      base          name
+0  3435910       10000  1722869233    -10800  stations  Buenos Aires
+2024-08-05 10:58:51,055 ::DataConnectionModule-> root - WARNING - Execute it before
+2024-08-05 10:58:53,657 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 10:58:53,803 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 10:58:53,809 ::DataConnectionModule-> root - ERROR - Failed to upload data to fedepr2345_coderhouse.weather_data:
+'Engine' object has no attribute 'cursor'
+2024-08-05 10:58:53,809 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'Engine' object has no attribute 'cursor'
+2024-08-05 10:58:53,810 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-05 11:10:19,532 ::DataConnectionModule-> root - INFO - Data created:         id  visibility          dt  timezone      base          name
+0  3435910       10000  1722869871    -10800  stations  Buenos Aires
+2024-08-05 11:10:19,537 ::DataConnectionModule-> root - WARNING - No active database connection, creating one now.
+2024-08-05 11:10:22,139 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 11:10:22,286 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 11:10:22,297 ::DataConnectionModule-> root - ERROR - Failed to upload data to fedepr2345_coderhouse.weather_data:
+'Engine' object has no attribute 'cursor'
+2024-08-05 11:10:22,297 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'Engine' object has no attribute 'cursor'
+2024-08-05 11:10:22,298 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-05 14:29:46,539 ::DataConnectionModule-> root - ERROR - Not able to import the data from the API
+'list' object has no attribute 'get'
+2024-08-05 14:29:46,539 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'list' object has no attribute 'get'
+2024-08-05 14:29:46,539 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-05 14:30:37,209 ::DataConnectionModule-> root - ERROR - Not able to import the data from the API
+'list' object has no attribute 'get'
+2024-08-05 14:30:37,209 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'list' object has no attribute 'get'
+2024-08-05 14:30:37,209 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-05 14:33:55,944 ::DataConnectionModule-> root - INFO - Data created:    id                                              title   price  ...        category                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-05 14:33:55,956 ::DataConnectionModule-> root - WARNING - No active database connection, creating one now.
+2024-08-05 14:33:58,818 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 14:33:58,967 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 14:33:58,998 ::DataConnectionModule-> root - ERROR - Failed to upload data to fedepr2345_coderhouse.products:
+'Engine' object has no attribute 'cursor'
+2024-08-05 14:33:58,998 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'Engine' object has no attribute 'cursor'
+2024-08-05 14:33:58,999 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-05 14:38:36,430 ::DataConnectionModule-> root - INFO - Data created:    id                                              title   price  ...                                              image                       rating fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}    2024-08-05
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}    2024-08-05
+2   3                                 Mens Cotton Jacket   55.99  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}    2024-08-05
+3   4                               Mens Casual Slim Fit   15.99  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}    2024-08-05
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}    2024-08-05
+
+[5 rows x 8 columns]
+2024-08-05 14:38:36,440 ::DataConnectionModule-> root - WARNING - No active database connection, creating one now.
+2024-08-05 14:38:39,096 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 14:38:39,246 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 14:38:39,257 ::DataConnectionModule-> root - ERROR - Failed to upload data to fedepr2345_coderhouse.products:
+'Engine' object has no attribute 'cursor'
+2024-08-05 14:38:39,257 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'Engine' object has no attribute 'cursor'
+2024-08-05 14:38:39,257 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-05 17:44:12,251 ::DataConnectionModule-> root - INFO - Data created:    id                                              title   price  ...                                              image                       rating fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}    2024-08-05
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}    2024-08-05
+2   3                                 Mens Cotton Jacket   55.99  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}    2024-08-05
+3   4                               Mens Casual Slim Fit   15.99  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}    2024-08-05
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}    2024-08-05
+
+[5 rows x 8 columns]
+2024-08-05 17:44:12,267 ::DataConnectionModule-> root - WARNING - No active database connection, creating one now.
+2024-08-05 17:44:15,046 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 17:44:15,195 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 17:44:15,224 ::DataConnectionModule-> root - ERROR - Failed to upload data to fedepr2345_coderhouse.products:
+'Engine' object has no attribute 'cursor'
+2024-08-05 17:44:15,224 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'Engine' object has no attribute 'cursor'
+2024-08-05 17:44:15,225 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
