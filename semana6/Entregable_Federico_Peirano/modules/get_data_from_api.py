@@ -22,6 +22,10 @@ class DataRetriever:
 
             data_df = pd.DataFrame(response_json)  
 
+            data_df['title'] = data_df['title'].astype('string')  
+            data_df['description'] = data_df['description'].astype('string')  
+            data_df['category'] = data_df['category'].astype('string')  
+            data_df['image'] = data_df['image'].astype('string')
             data_df['fecha_ingesta'] = datetime.now().date()  
 
             logging.info(f"Data created: {data_df.head()}")  

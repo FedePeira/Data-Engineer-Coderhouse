@@ -159,3 +159,99 @@ Mixing dicts with non-Series may lead to ambiguous ordering.
 2024-08-05 18:46:09,188 ::DataConnectionModule-> root - ERROR - Not able to upload data
 'Engine' object has no attribute 'cursor'
 2024-08-05 18:46:09,189 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-05 19:03:15,535 ::DataConnectionModule-> root - INFO - Data created:    id                                              title   price  ...                                              image                       rating fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}    2024-08-05
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}    2024-08-05
+2   3                                 Mens Cotton Jacket   55.99  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}    2024-08-05
+3   4                               Mens Casual Slim Fit   15.99  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}    2024-08-05
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}    2024-08-05
+
+[5 rows x 8 columns]
+2024-08-05 19:03:15,552 ::DataConnectionModule-> root - WARNING - No active database connection, creating one now.
+2024-08-05 19:03:18,280 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 19:03:18,423 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 19:03:18,443 ::DataConnectionModule-> root - ERROR - Failed to upload data to fedepr2345_coderhouse.products:
+'Engine' object has no attribute 'cursor'
+2024-08-05 19:03:18,443 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'Engine' object has no attribute 'cursor'
+2024-08-05 19:03:18,443 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-05 19:52:26,866 ::DataConnectionModule-> root - INFO - Data created:    id                                              title   price  ...                                              image                       rating fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}    2024-08-05
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}    2024-08-05
+2   3                                 Mens Cotton Jacket   55.99  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}    2024-08-05
+3   4                               Mens Casual Slim Fit   15.99  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}    2024-08-05
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}    2024-08-05
+
+[5 rows x 8 columns]
+2024-08-05 19:52:26,876 ::DataConnectionModule-> root - WARNING - No active database connection, creating one now.
+2024-08-05 19:52:29,454 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 19:52:29,600 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 19:52:29,609 ::DataConnectionModule-> root - ERROR - Failed to upload data to fedepr2345_coderhouse.products:
+'Engine' object has no attribute 'cursor'
+2024-08-05 19:52:29,609 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'Engine' object has no attribute 'cursor'
+2024-08-05 19:52:29,609 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-05 19:54:58,746 ::DataConnectionModule-> root - INFO - Data created:    id                                              title   price  ...                                              image                       rating fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}    2024-08-05
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}    2024-08-05
+2   3                                 Mens Cotton Jacket   55.99  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}    2024-08-05
+3   4                               Mens Casual Slim Fit   15.99  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}    2024-08-05
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}    2024-08-05
+
+[5 rows x 8 columns]
+2024-08-05 19:54:58,757 ::DataConnectionModule-> root - WARNING - No active database connection, creating one now.
+2024-08-05 19:55:01,514 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 19:55:01,668 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 19:55:01,678 ::DataConnectionModule-> root - ERROR - Failed to upload data to fedepr2345_coderhouse.products:
+'Engine' object has no attribute 'cursor'
+2024-08-05 19:55:01,678 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'Engine' object has no attribute 'cursor'
+2024-08-05 19:55:01,678 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-05 19:56:47,370 ::DataConnectionModule-> root - INFO - Data created:    id                                              title   price  ...                                              image                       rating fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}    2024-08-05
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}    2024-08-05
+2   3                                 Mens Cotton Jacket   55.99  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}    2024-08-05
+3   4                               Mens Casual Slim Fit   15.99  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}    2024-08-05
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}    2024-08-05
+
+[5 rows x 8 columns]
+2024-08-05 19:56:47,378 ::DataConnectionModule-> root - WARNING - No active database connection, creating one now.
+2024-08-05 19:56:49,996 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 19:56:50,144 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 19:56:50,152 ::DataConnectionModule-> root - ERROR - Failed to upload data to fedepr2345_coderhouse.products:
+'Engine' object has no attribute 'cursor'
+2024-08-05 19:56:50,152 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'Engine' object has no attribute 'cursor'
+2024-08-05 19:56:50,152 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-05 19:57:28,487 ::DataConnectionModule-> root - INFO - Data created:    id                                              title   price  ...                                              image                       rating fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}    2024-08-05
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}    2024-08-05
+2   3                                 Mens Cotton Jacket   55.99  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}    2024-08-05
+3   4                               Mens Casual Slim Fit   15.99  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}    2024-08-05
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}    2024-08-05
+
+[5 rows x 8 columns]
+2024-08-05 19:57:28,498 ::DataConnectionModule-> root - WARNING - No active database connection, creating one now.
+2024-08-05 19:57:31,091 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 19:57:31,253 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 19:57:31,260 ::DataConnectionModule-> root - ERROR - Failed to upload data to fedepr2345_coderhouse.products:
+'Engine' object has no attribute 'cursor'
+2024-08-05 19:57:31,260 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'Engine' object has no attribute 'cursor'
+2024-08-05 19:57:31,261 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-05 19:57:39,492 ::DataConnectionModule-> root - INFO - Data created:    id                                              title   price  ...                                              image                       rating fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}    2024-08-05
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}    2024-08-05
+2   3                                 Mens Cotton Jacket   55.99  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}    2024-08-05
+3   4                               Mens Casual Slim Fit   15.99  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}    2024-08-05
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}    2024-08-05
+
+[5 rows x 8 columns]
+2024-08-05 19:57:39,504 ::DataConnectionModule-> root - WARNING - No active database connection, creating one now.
+2024-08-05 19:57:42,128 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 19:57:42,280 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 19:57:42,291 ::DataConnectionModule-> root - ERROR - Failed to upload data to fedepr2345_coderhouse.products:
+'Engine' object has no attribute 'cursor'
+2024-08-05 19:57:42,292 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'Engine' object has no attribute 'cursor'
+2024-08-05 19:57:42,292 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
