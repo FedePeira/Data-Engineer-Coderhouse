@@ -143,3 +143,19 @@ Mixing dicts with non-Series may lead to ambiguous ordering.
 2024-08-05 17:44:15,224 ::DataConnectionModule-> root - ERROR - Not able to upload data
 'Engine' object has no attribute 'cursor'
 2024-08-05 17:44:15,225 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-05 18:46:06,332 ::DataConnectionModule-> root - INFO - Data created:    id                                              title   price  ...                                              image                       rating fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}    2024-08-05
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}    2024-08-05
+2   3                                 Mens Cotton Jacket   55.99  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}    2024-08-05
+3   4                               Mens Casual Slim Fit   15.99  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}    2024-08-05
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}    2024-08-05
+
+[5 rows x 8 columns]
+2024-08-05 18:46:06,342 ::DataConnectionModule-> root - WARNING - No active database connection, creating one now.
+2024-08-05 18:46:09,030 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 18:46:09,181 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-05 18:46:09,188 ::DataConnectionModule-> root - ERROR - Failed to upload data to fedepr2345_coderhouse.products:
+'Engine' object has no attribute 'cursor'
+2024-08-05 18:46:09,188 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'Engine' object has no attribute 'cursor'
+2024-08-05 18:46:09,189 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
