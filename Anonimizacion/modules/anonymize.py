@@ -21,7 +21,7 @@ API = os.getenv('API')
 class DataRetriever:  
     def __init__(self) -> None:  
         self.endpoint: str = API  
-        logging.info("DataRetriever inicializada con endpoint: %s", self.endpoint)  
+        logging.info("DataRetriever initialized with endpoint: %s", self.endpoint)  
 
     def retrieve_data(self):
         # Metodo para obtener los datos de la API
@@ -49,28 +49,23 @@ class DataRetriever:
         logging.info("Empezando a anonimizar los datos.")  
 
         try:
-        # Obtener los datos desde el método específico  
             data_df = self.retrieve_data()  
 
-            # Agregar fecha de ingesta  
             data_df['fecha_ingesta'] = datetime.now().date()
 
-            # Aquí puedes seleccionar las Columnas que necesites  
             df_selected = data_df[['id', 'title', 'price', 'description', 'category', 'image', 'fecha_ingesta']]
 
-            # Cambiar el nombre de las Columnas Seleccionadas  
             df_selected = df_selected.rename(columns={  
-                'id': 'Id',
-                'title': 'Titulo', 
-                'price': 'Precio' ,
-                'description': 'Descripcion',
-                'category': 'Categoria',  
-                'image': 'Imagen',
+                'title': 'titulo', 
+                'price': 'precio' ,
+                'description': 'descripcion',
+                'category': 'categoria',  
+                'image': 'imagen',
             })  
 
-            logging.info(f"Datos anonimizados: {df_selected.head()}")  
+            logging.info(f"Data anonymize: {df_selected.head()}")  
             return df_selected  
 
         except Exception as e:
-            logging.error("Un error ocurrio durante la anonimizacion de data: %s", e)  
+            logging.error("An error occurred during data anonymization: %s", e)  
             raise

@@ -54,14 +54,14 @@ def load_data(df):
         print("No data to load, df empty.")  
         return  
     
-    # Validar y recortar longitudes de las columnas  
-    df['Titulo'] = df['Titulo'].str.slice(0, 255)  
-    df['Descripcion'] = df['Descripcion'].str.slice(0, 255)  
-    df['Categoria'] = df['Categoria'].str.slice(0, 255)  
-    df['Imagen'] = df['Imagen'].str.slice(0, 255)  
+    df['titulo'] = df['titulo'].str.slice(0, 255)  
+    df['descripcion'] = df['descripcion'].str.slice(0, 255)  
+    df['categoria'] = df['categoria'].str.slice(0, 255)  
+    df['imagen'] = df['imagen'].str.slice(0, 255)  
     df = df.fillna('')
 
-    # Crear un diccionario de configuración  
+    print('DF -->', df)
+
     config = {  
         'REDSHIFT_USERNAME': os.getenv('REDSHIFT_USERNAME'),  
         'REDSHIFT_PASSWORD': os.getenv('REDSHIFT_PASSWORD'),  
@@ -70,7 +70,7 @@ def load_data(df):
         'REDSHIFT_DBNAME': os.getenv('REDSHIFT_DBNAME')  
     }  
 
-    logging.info(f"Configuración de conexión a Redshift: {config}")  
+    logging.info(f"Redshift Connection Settings:: {config}")  
     
     # Crear una instancia de DataConn  
     data_conn = DataConn(config=config, schema='public')  
@@ -78,30 +78,28 @@ def load_data(df):
     try:  
         db_engine = data_conn.get_conn()  
         if data_conn.db_engine is None:  
-            raise Exception("No se pudo establecer la conexión.") 
+            raise Exception("The connection could not be established.") 
     except Exception as e:  
-        logging.error("Error estableeciendo una conexion con la base ed datos: %s", e)  
-        print(f"Error estableciendo conexión a la base de datos: {e}")  
+        logging.error("Error establishing a connection to the database: %s", e)  
+        print(f"Error establishing a connection to the database: {e}")  
         return  
 
     try:  
-        # Usar el motor para operar  
-        with db_engine.connect() as connection:  
-            # Crear la tabla en Redshift si no existe  
+        with db_engine.connect() as connection:
+
             connection.execute(f"""  
             CREATE TABLE IF NOT EXISTS {data_conn.schema}.productos (  
                 id INTEGER PRIMARY KEY,  
-                title VARCHAR(255), 
-                price DECIMAL(10, 2),  
-                description VARCHAR(255), 
-                category VARCHAR(255),  
-                image VARCHAR(255), 
+                titulo VARCHAR(255), 
+                precio DECIMAL(10, 2),  
+                descripcion VARCHAR(255), 
+                categoria VARCHAR(255),  
+                imagen VARCHAR(255), 
                 fecha_ingesta DATE  
             );  
             """)  
-            print("Tabla en Redshift lista!")  
+            print("Table in Redshift ready!")  
 
-            # Preparar datos para inserción en bloque  
             block_size = 20   
             for start in range(0, len(df), block_size):  
                 end = start + block_size  
@@ -113,16 +111,16 @@ def load_data(df):
                 rows_to_insert = [tuple(row) for row in block_df.to_numpy()]
                     
                 insert_query = f"""  
-                INSERT INTO  {data_conn.schema}.productos (title, price, description, category, image, fecha_ingesta)  
+                INSERT INTO  {data_conn.schema}.productos ( titulo, precio, descripcion, categoria, imagen, fecha_ingesta)  
                 VALUES (%s, %s, %s, %s, %s, %s)
                 """  
                 
                 connection.execute(insert_query, rows_to_insert)  
                               
-                print(f"Se ha agregado un bloque de {len(rows_to_insert)} registros a Redshift.")  
+                print(f"A block of {len(rows_to_insert)} records has been added to Redshift.")  
 
     except Exception as e:  
-        logging.error("Error cargando datos a Redshift: %s", e)  
-        print(f"Error cargando datos a Redshift: {e}")  
+        logging.error("Error loading data to Redshift: %s", e)  
+        print(f"Error loading data to Redshift: {e}")  
     finally:  
         data_conn.close_conn()  
