@@ -91,7 +91,7 @@ def load_data(df):
                 id INTEGER PRIMARY KEY,  
                 titulo VARCHAR(255), 
                 precio DECIMAL(10, 2),  
-                descripcion VARCHAR(255), 
+                descripcion VARCHAR(MAX), 
                 categoria VARCHAR(255),  
                 imagen VARCHAR(255), 
                 fecha_ingesta DATE  
@@ -110,7 +110,7 @@ def load_data(df):
                 rows_to_insert = [tuple(row) for row in block_df.to_numpy()]
                     
                 insert_query = f"""  
-                INSERT INTO  {data_conn.schema}.productos ( titulo, precio, descripcion, categoria, imagen, fecha_ingesta)  
+                INSERT INTO  {data_conn.schema}.productos (id, titulo, precio, descripcion, categoria, imagen, fecha_ingesta)  
                 VALUES (%s, %s, %s, %s, %s, %s)
                 """  
                 
