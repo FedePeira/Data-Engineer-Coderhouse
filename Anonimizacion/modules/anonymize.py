@@ -21,15 +21,18 @@ API = os.getenv('API')
 class DataRetriever:  
     def __init__(self) -> None:  
         self.endpoint: str = API  
+        logging.info("DataRetriever inicializada con endpoint: %s", self.endpoint)  
 
     def retrieve_data(self):
         # Metodo para obtener los datos de la API
+        logging.info("Intentado recuperar data de la API.")  
         try:
             response = requests.get(self.endpoint)  
             response.raise_for_status()  
             response_json = response.json() 
 
             data_df = pd.DataFrame(response_json)  
+            logging.info('Data obtenida: %s', data_df.head())  
             print('--------------------------------')
             print('Anonymize DataFrane:', data_df)
             print('--------------------------------')
@@ -43,33 +46,31 @@ class DataRetriever:
     
     def anonymize_data(self):
         # Metodo para anonimizar los datos
+        logging.info("Empezando a anonimizar los datos.")  
 
+        try:
         # Obtener los datos desde el método específico  
-        data_df = self.retrieve_data()  
+            data_df = self.retrieve_data()  
 
-        # Generar datos falsos  usando anonymizedf  
-        an = anonymize(data_df) 
+            # Agregar fecha de ingesta  
+            data_df['fecha_ingesta'] = datetime.now().date()
 
-        fake_df = (  
-            an  
-            .fake_names("Titulo", chaining=True)  
-            .fake_whole_numbers("Category", chaining=True)  
-            .show_data_frame()  
-        )  
-        
-        # Agregar fecha de ingesta  
-        data_df['fecha_ingesta'] = datetime.now().date()
+            # Aquí puedes seleccionar las Columnas que necesites  
+            df_selected = data_df[['id', 'title', 'price', 'description', 'category', 'image', 'fecha_ingesta']]
 
-         # Aquí puedes seleccionar las Columnas que necesites  
-        df_selected = data_df[['title', 'description', 'category', 'image', 'fecha_ingesta']]
+            # Cambiar el nombre de las Columnas Seleccionadas  
+            df_selected = df_selected.rename(columns={  
+                'id': 'Id',
+                'title': 'Titulo', 
+                'price': 'Precio' ,
+                'description': 'Descripcion',
+                'category': 'Categoria',  
+                'image': 'Imagen',
+            })  
 
-        # Cambiar el nombre de las Columnas Seleccionadas  
-        df_selected = df_selected.rename(columns={  
-            'title': 'Titulo',  
-            'description': 'Descripcion',  
-            'category': 'Categoria',  
-            'image': 'Imagen'  
-        })  
+            logging.info(f"Datos anonimizados: {df_selected.head()}")  
+            return df_selected  
 
-        logging.info(f"Datos anonimizados: {df_selected.head()}")  
-        return df_selected  
+        except Exception as e:
+            logging.error("Un error ocurrio durante la anonimizacion de data: %s", e)  
+            raise

@@ -1,0 +1,931 @@
+2024-08-19 12:04:21,245 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 12:04:21,245 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 12:04:21,246 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 12:04:21,246 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 12:04:21,824 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title   price  ...        category                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 12:04:21,855 ::DataConnectionModule-> root - ERROR - Un error ocurrio durante la anonimizacion de data: "['descriptionprice'] not in index"
+2024-08-19 12:04:21,855 ::DataConnectionModule-> root - ERROR - Not able to upload data
+"['descriptionprice'] not in index"
+2024-08-19 12:04:21,855 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 12:07:31,054 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 12:07:31,054 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 12:07:31,055 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 12:07:31,055 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 12:07:32,050 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title   price  ...        category                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 12:07:32,076 ::DataConnectionModule-> root - ERROR - Un error ocurrio durante la anonimizacion de data: "['descriptioncategory'] not in index"
+2024-08-19 12:07:32,077 ::DataConnectionModule-> root - ERROR - Not able to upload data
+"['descriptioncategory'] not in index"
+2024-08-19 12:07:32,077 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 12:09:01,207 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 12:09:01,207 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 12:09:01,207 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 12:09:01,207 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 12:09:02,115 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title   price  ...        category                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 12:09:02,148 ::DataConnectionModule-> root - ERROR - Un error ocurrio durante la anonimizacion de data: "['descriptioncategory'] not in index"
+2024-08-19 12:09:02,148 ::DataConnectionModule-> root - ERROR - Not able to upload data
+"['descriptioncategory'] not in index"
+2024-08-19 12:09:02,148 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 12:10:32,126 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 12:10:32,126 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 12:10:32,127 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 12:10:32,127 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 12:10:32,791 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title   price  ...        category                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 12:10:32,835 ::DataConnectionModule-> root - INFO - Datos anonimizados:                                               Titulo  Precio  ...                                             Imagen fecha_ingesta
+0  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2                                 Mens Cotton Jacket   55.99  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3                               Mens Casual Slim Fit   15.99  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 6 columns]
+2024-08-19 12:10:32,835 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 12:10:32,837 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 12:10:32,837 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 12:10:32,886 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 12:10:35,630 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 12:10:35,785 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 12:10:36,284 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: not all arguments converted during string formatting
+2024-08-19 12:10:36,285 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 12:10:36,285 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 12:10:36,285 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 13:03:34,187 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 13:03:34,188 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 13:03:34,188 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 13:03:34,188 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 13:03:35,169 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title   price  ...        category                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 13:03:35,203 ::DataConnectionModule-> root - INFO - Datos anonimizados:                                               Titulo  Precio  ...                                             Imagen fecha_ingesta
+0  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2                                 Mens Cotton Jacket   55.99  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3                               Mens Casual Slim Fit   15.99  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 6 columns]
+2024-08-19 13:03:35,203 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 13:03:35,205 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 13:03:35,205 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 13:03:35,238 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 13:03:37,892 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 13:03:38,042 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 13:03:38,544 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: tuple index out of range
+2024-08-19 13:03:38,545 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 13:03:38,546 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 13:03:38,546 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 13:06:58,426 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 13:06:58,427 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 13:06:58,427 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 13:06:58,427 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 13:07:00,863 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title   price  ...        category                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 13:07:00,899 ::DataConnectionModule-> root - INFO - Datos anonimizados:                                               Titulo  Precio  ...                                             Imagen fecha_ingesta
+0  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2                                 Mens Cotton Jacket   55.99  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3                               Mens Casual Slim Fit   15.99  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 6 columns]
+2024-08-19 13:07:00,899 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 13:07:00,901 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 13:07:00,901 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 13:07:00,934 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 13:07:03,587 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 13:07:03,738 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 13:07:04,252 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: tuple index out of range
+2024-08-19 13:07:04,253 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 13:07:04,253 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 13:07:04,253 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 13:15:48,050 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 13:15:48,050 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 13:15:48,050 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 13:15:48,051 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 13:15:48,892 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title   price  ...        category                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 13:15:48,926 ::DataConnectionModule-> root - INFO - Datos anonimizados:                                               Titulo  Precio  ...                                             Imagen fecha_ingesta
+0  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2                                 Mens Cotton Jacket   55.99  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3                               Mens Casual Slim Fit   15.99  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 6 columns]
+2024-08-19 13:15:48,926 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 13:15:48,928 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 13:15:48,928 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 13:15:48,964 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 13:15:51,461 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 13:15:51,611 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 13:15:52,102 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: tuple index out of range
+2024-08-19 13:15:52,103 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 13:15:52,103 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 13:15:52,103 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 13:17:23,857 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 13:17:23,857 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 13:17:23,857 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 13:17:23,857 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 13:17:24,688 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title   price  ...        category                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 13:17:24,728 ::DataConnectionModule-> root - INFO - Datos anonimizados:                                               Titulo  Precio  ...                                             Imagen fecha_ingesta
+0  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2                                 Mens Cotton Jacket   55.99  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3                               Mens Casual Slim Fit   15.99  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 6 columns]
+2024-08-19 13:17:24,728 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 13:17:24,730 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 13:17:24,730 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 13:17:24,763 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 13:17:27,395 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 13:17:27,546 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 13:17:28,045 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: tuple index out of range
+2024-08-19 13:17:28,046 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 13:17:28,046 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 13:17:28,046 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 13:21:24,751 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 13:21:24,752 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 13:21:24,752 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 13:21:24,752 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 13:21:25,649 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title   price  ...        category                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 13:21:25,691 ::DataConnectionModule-> root - ERROR - Un error ocurrio durante la anonimizacion de data: 'NoneType' object has no attribute 'head'
+2024-08-19 13:21:25,691 ::DataConnectionModule-> root - ERROR - Not able to upload data
+'NoneType' object has no attribute 'head'
+2024-08-19 13:21:25,691 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 13:21:46,813 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 13:21:46,813 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 13:21:46,828 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 13:21:46,828 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 13:21:48,087 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title   price  ...        category                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 13:21:48,120 ::DataConnectionModule-> root - INFO - Datos anonimizados:                                               Titulo  Precio  ...                                             Imagen fecha_ingesta
+0  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2                                 Mens Cotton Jacket   55.99  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3                               Mens Casual Slim Fit   15.99  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 6 columns]
+2024-08-19 13:21:48,120 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 13:21:48,122 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 13:21:48,122 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 13:21:48,184 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 13:21:50,773 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 13:21:50,920 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 13:21:51,424 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', 109.95, 'Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday', "men's clothing", 'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,424 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Mens Casual Premium Slim Fit T-Shirts ', 22.3, 'Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and dieh', "men's clothing", 'https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,424 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Mens Cotton Jacket', 55.99, 'great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, h', "men's clothing", 'https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,424 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Mens Casual Slim Fit', 15.99, 'The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.', "men's clothing", 'https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,424 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ("John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet", 695.0, "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.", 'jewelery', 'https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,424 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Solid Gold Petite Micropave ', 168.0, 'Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.', 'jewelery', 'https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,424 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('White Gold Plated Princess', 9.99, "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...", 'jewelery', 'https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,424 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Pierced Owl Rose Gold Plated Stainless Steel Double', 10.99, 'Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel', 'jewelery', 'https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,424 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('WD 2TB Elements Portable External Hard Drive - USB 3.0 ', 64.0, 'USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on ', 'electronics', 'https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,424 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s', 109.0, 'Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making i', 'electronics', 'https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,424 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5', 109.0, '3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable', 'electronics', 'https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,424 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive', 114.0, "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty", 'electronics', 'https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,424 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin', 599.0, '21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supp', 'electronics', 'https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,424 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ', 999.99, '49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra', 'electronics', 'https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,424 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ("BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats", 56.99, 'Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold we', "women's clothing", 'https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,424 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ("Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket", 29.95, '100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAN', "women's clothing", 'https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,424 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Rain Jacket Women Windbreaker Striped Climbing Raincoats', 39.99, 'Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it cov', "women's clothing", 'https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,424 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ("MBJ Women's Solid Short Sleeve Boat Neck V ", 9.85, '95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem', "women's clothing", 'https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,424 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ("Opna Women's Short Sleeve Moisture", 7.95, '100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V', "women's clothing", 'https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,435 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('DANVOUY Womens T Shirt Casual Cotton Short', 12.99, '95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.', "women's clothing", 'https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:21:51,435 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: tuple index out of range
+2024-08-19 13:21:51,436 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 13:21:51,436 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 13:21:51,437 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 13:25:23,734 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 13:25:23,735 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 13:25:23,735 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 13:25:23,735 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 13:25:24,565 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title   price  ...        category                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 13:25:24,602 ::DataConnectionModule-> root - INFO - Datos anonimizados:    id                                             Titulo  Precio  ...       Categoria                                             Imagen fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 7 columns]
+2024-08-19 13:25:24,602 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['id', 'Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 13:25:24,604 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 13:25:24,604 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 13:25:24,638 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 13:25:27,230 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 13:25:27,375 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 13:25:27,820 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: (psycopg2.errors.SyntaxError) syntax error at or near "AUTOINCREMENT"
+LINE 3:                 id INT PRIMARY KEY AUTOINCREMENT,  
+                                           ^
+
+[SQL:   
+            CREATE TABLE IF NOT EXISTS public.productos (  
+                id INT PRIMARY KEY AUTOINCREMENT,  
+                title VARCHAR(255), 
+                price DECIMAL(10, 2),  
+                description VARCHAR(255), 
+                category VARCHAR(255),  
+                image VARCHAR(255), 
+                fecha_ingesta DATE  
+            );  
+            ]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2024-08-19 13:25:27,823 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 13:25:27,823 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 13:25:27,823 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 13:27:35,364 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 13:27:35,364 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 13:27:35,365 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 13:27:35,365 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 13:27:36,471 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title   price  ...        category                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 13:27:36,507 ::DataConnectionModule-> root - INFO - Datos anonimizados:    id                                             Titulo  Precio  ...       Categoria                                             Imagen fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 7 columns]
+2024-08-19 13:27:36,508 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['id', 'Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 13:27:36,509 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 13:27:36,509 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 13:27:36,545 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 13:27:39,274 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 13:27:39,430 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 13:27:40,418 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: (psycopg2.errors.UndefinedColumn) column "price" of relation "productos" does not exist
+
+[SQL:   
+                INSERT INTO public.productos (title, price, description, category, image, fecha_ingesta)  
+                VALUES (%s, %s, %s, %s, %s, %s, %s)  
+                ]
+[parameters: [(1, 'Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', 109.95, 'Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday', "men's clothing", 'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg', datetime.date(2024, 8, 19)), (2, 'Mens Casual Premium Slim Fit T-Shirts ', 22.3, 'Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and dieh', "men's clothing", 'https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg', datetime.date(2024, 8, 19)), (3, 'Mens Cotton Jacket', 55.99, 'great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, h', "men's clothing", 'https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg', datetime.date(2024, 8, 19)), (4, 'Mens Casual Slim Fit', 15.99, 'The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.', "men's clothing", 'https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg', datetime.date(2024, 8, 19)), (5, "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet", 695.0, "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.", 'jewelery', 'https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19)), (6, 'Solid Gold Petite Micropave ', 168.0, 'Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.', 'jewelery', 'https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19)), (7, 'White Gold Plated Princess', 9.99, "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...", 'jewelery', 'https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19)), (8, 'Pierced Owl Rose Gold Plated Stainless Steel Double', 10.99, 'Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel', 'jewelery', 'https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19))  ... displaying 10 of 20 total bound parameter sets ...  (19, "Opna Women's Short Sleeve Moisture", 7.95, '100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V', "women's clothing", 'https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg', datetime.date(2024, 8, 19)), (20, 'DANVOUY Womens T Shirt Casual Cotton Short', 12.99, '95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.', "women's clothing", 'https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg', datetime.date(2024, 8, 19))]]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2024-08-19 13:27:40,423 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 13:27:40,423 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 13:27:40,423 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 13:28:23,129 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 13:28:23,129 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 13:28:23,129 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 13:28:23,129 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 13:28:24,179 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title   price  ...        category                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 13:28:24,223 ::DataConnectionModule-> root - INFO - Datos anonimizados:    id                                             Titulo  Precio  ...       Categoria                                             Imagen fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 7 columns]
+2024-08-19 13:28:24,224 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['id', 'Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 13:28:24,225 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 13:28:24,225 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 13:28:24,257 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 13:28:26,767 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 13:28:26,914 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 13:28:27,843 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: (psycopg2.errors.UndefinedColumn) column "id" of relation "productos" does not exist
+
+[SQL:   
+                INSERT INTO public.productos (id, title, price, description, category, image, fecha_ingesta)  
+                VALUES (%s, %s, %s, %s, %s, %s, %s)
+                ]
+[parameters: [(1, 'Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', 109.95, 'Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday', "men's clothing", 'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg', datetime.date(2024, 8, 19)), (2, 'Mens Casual Premium Slim Fit T-Shirts ', 22.3, 'Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and dieh', "men's clothing", 'https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg', datetime.date(2024, 8, 19)), (3, 'Mens Cotton Jacket', 55.99, 'great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, h', "men's clothing", 'https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg', datetime.date(2024, 8, 19)), (4, 'Mens Casual Slim Fit', 15.99, 'The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.', "men's clothing", 'https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg', datetime.date(2024, 8, 19)), (5, "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet", 695.0, "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.", 'jewelery', 'https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19)), (6, 'Solid Gold Petite Micropave ', 168.0, 'Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.', 'jewelery', 'https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19)), (7, 'White Gold Plated Princess', 9.99, "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...", 'jewelery', 'https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19)), (8, 'Pierced Owl Rose Gold Plated Stainless Steel Double', 10.99, 'Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel', 'jewelery', 'https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19))  ... displaying 10 of 20 total bound parameter sets ...  (19, "Opna Women's Short Sleeve Moisture", 7.95, '100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V', "women's clothing", 'https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg', datetime.date(2024, 8, 19)), (20, 'DANVOUY Womens T Shirt Casual Cotton Short', 12.99, '95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.', "women's clothing", 'https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg', datetime.date(2024, 8, 19))]]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2024-08-19 13:28:27,848 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 13:28:27,848 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 13:28:27,848 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 13:30:05,110 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 13:30:05,111 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 13:30:05,111 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 13:30:05,111 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 13:30:05,943 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title   price  ...        category                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 13:30:05,973 ::DataConnectionModule-> root - INFO - Datos anonimizados:    Id                                             Titulo  Precio  ...       Categoria                                             Imagen fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 7 columns]
+2024-08-19 13:30:05,973 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Id', 'Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 13:30:05,975 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 13:30:05,975 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 13:30:06,011 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 13:30:08,807 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 13:30:08,963 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 13:30:09,953 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: (psycopg2.errors.UndefinedColumn) column "id" of relation "productos" does not exist
+
+[SQL:   
+                INSERT INTO public.productos (id, title, price, description, category, image, fecha_ingesta)  
+                VALUES (%s, %s, %s, %s, %s, %s, %s)
+                ]
+[parameters: [(1, 'Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', 109.95, 'Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday', "men's clothing", 'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg', datetime.date(2024, 8, 19)), (2, 'Mens Casual Premium Slim Fit T-Shirts ', 22.3, 'Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and dieh', "men's clothing", 'https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg', datetime.date(2024, 8, 19)), (3, 'Mens Cotton Jacket', 55.99, 'great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, h', "men's clothing", 'https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg', datetime.date(2024, 8, 19)), (4, 'Mens Casual Slim Fit', 15.99, 'The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.', "men's clothing", 'https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg', datetime.date(2024, 8, 19)), (5, "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet", 695.0, "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.", 'jewelery', 'https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19)), (6, 'Solid Gold Petite Micropave ', 168.0, 'Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.', 'jewelery', 'https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19)), (7, 'White Gold Plated Princess', 9.99, "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...", 'jewelery', 'https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19)), (8, 'Pierced Owl Rose Gold Plated Stainless Steel Double', 10.99, 'Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel', 'jewelery', 'https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19))  ... displaying 10 of 20 total bound parameter sets ...  (19, "Opna Women's Short Sleeve Moisture", 7.95, '100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V', "women's clothing", 'https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg', datetime.date(2024, 8, 19)), (20, 'DANVOUY Womens T Shirt Casual Cotton Short', 12.99, '95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.', "women's clothing", 'https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg', datetime.date(2024, 8, 19))]]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2024-08-19 13:30:09,958 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 13:30:09,958 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 13:30:09,958 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 13:30:39,988 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 13:30:39,988 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 13:30:39,988 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 13:30:39,989 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 13:30:40,811 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title   price  ...        category                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 13:30:40,846 ::DataConnectionModule-> root - INFO - Datos anonimizados:    Id                                             Titulo  Precio  ...       Categoria                                             Imagen fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 7 columns]
+2024-08-19 13:30:40,846 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Id', 'Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 13:30:40,848 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 13:30:40,848 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 13:30:40,880 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 13:30:43,511 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 13:30:43,662 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 13:30:44,630 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: (psycopg2.errors.UndefinedColumn) column "id" of relation "productos" does not exist
+
+[SQL:   
+                INSERT INTO public.productos (id, title, price, description, category, image, fecha_ingesta)  
+                VALUES (%s, %s, %s, %s, %s, %s, %s)
+                ]
+[parameters: [(1, 'Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', 109.95, 'Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday', "men's clothing", 'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg', datetime.date(2024, 8, 19)), (2, 'Mens Casual Premium Slim Fit T-Shirts ', 22.3, 'Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and dieh', "men's clothing", 'https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg', datetime.date(2024, 8, 19)), (3, 'Mens Cotton Jacket', 55.99, 'great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, h', "men's clothing", 'https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg', datetime.date(2024, 8, 19)), (4, 'Mens Casual Slim Fit', 15.99, 'The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.', "men's clothing", 'https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg', datetime.date(2024, 8, 19)), (5, "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet", 695.0, "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.", 'jewelery', 'https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19)), (6, 'Solid Gold Petite Micropave ', 168.0, 'Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.', 'jewelery', 'https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19)), (7, 'White Gold Plated Princess', 9.99, "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...", 'jewelery', 'https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19)), (8, 'Pierced Owl Rose Gold Plated Stainless Steel Double', 10.99, 'Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel', 'jewelery', 'https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19))  ... displaying 10 of 20 total bound parameter sets ...  (19, "Opna Women's Short Sleeve Moisture", 7.95, '100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V', "women's clothing", 'https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg', datetime.date(2024, 8, 19)), (20, 'DANVOUY Womens T Shirt Casual Cotton Short', 12.99, '95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.', "women's clothing", 'https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg', datetime.date(2024, 8, 19))]]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2024-08-19 13:30:44,635 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 13:30:44,635 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 13:30:44,635 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 13:31:35,808 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 13:31:35,809 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 13:31:35,809 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 13:31:35,809 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 13:31:36,816 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title   price  ...        category                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 13:31:36,856 ::DataConnectionModule-> root - INFO - Datos anonimizados:                                               Titulo  Precio  ...                                             Imagen fecha_ingesta
+0  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2                                 Mens Cotton Jacket   55.99  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3                               Mens Casual Slim Fit   15.99  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 6 columns]
+2024-08-19 13:31:36,856 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 13:31:36,858 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 13:31:36,858 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 13:31:36,891 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 13:31:39,756 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 13:31:39,912 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 13:31:40,435 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', 109.95, 'Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday', "men's clothing", 'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,436 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Mens Casual Premium Slim Fit T-Shirts ', 22.3, 'Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and dieh', "men's clothing", 'https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,436 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Mens Cotton Jacket', 55.99, 'great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, h', "men's clothing", 'https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,437 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Mens Casual Slim Fit', 15.99, 'The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.', "men's clothing", 'https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,438 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ("John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet", 695.0, "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.", 'jewelery', 'https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,439 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Solid Gold Petite Micropave ', 168.0, 'Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.', 'jewelery', 'https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,440 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('White Gold Plated Princess', 9.99, "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...", 'jewelery', 'https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,441 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Pierced Owl Rose Gold Plated Stainless Steel Double', 10.99, 'Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel', 'jewelery', 'https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,442 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('WD 2TB Elements Portable External Hard Drive - USB 3.0 ', 64.0, 'USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on ', 'electronics', 'https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,443 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s', 109.0, 'Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making i', 'electronics', 'https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,443 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5', 109.0, '3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable', 'electronics', 'https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,444 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive', 114.0, "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty", 'electronics', 'https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,444 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin', 599.0, '21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supp', 'electronics', 'https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,445 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ', 999.99, '49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra', 'electronics', 'https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,445 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ("BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats", 56.99, 'Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold we', "women's clothing", 'https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,445 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ("Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket", 29.95, '100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAN', "women's clothing", 'https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,446 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('Rain Jacket Women Windbreaker Striped Climbing Raincoats', 39.99, 'Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it cov', "women's clothing", 'https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,446 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ("MBJ Women's Solid Short Sleeve Boat Neck V ", 9.85, '95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem', "women's clothing", 'https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,446 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ("Opna Women's Short Sleeve Moisture", 7.95, '100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V', "women's clothing", 'https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,447 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: ('DANVOUY Womens T Shirt Casual Cotton Short', 12.99, '95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.', "women's clothing", 'https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 13:31:40,447 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: tuple index out of range
+2024-08-19 13:31:40,448 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 13:31:40,448 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 13:31:40,448 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 13:32:22,253 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 13:32:22,253 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 13:32:22,253 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 13:32:22,253 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 13:32:22,884 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title   price  ...        category                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 13:32:22,918 ::DataConnectionModule-> root - INFO - Datos anonimizados:    Id                                             Titulo  Precio  ...       Categoria                                             Imagen fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 7 columns]
+2024-08-19 13:32:22,919 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Id', 'Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 13:32:22,920 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 13:32:22,920 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 13:32:22,945 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 13:32:25,539 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 13:32:25,688 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 13:32:26,632 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: (psycopg2.errors.UndefinedColumn) column "price" of relation "productos" does not exist
+
+[SQL:   
+                INSERT INTO public.productos (title, price, description, category, image, fecha_ingesta)  
+                VALUES (%s, %s, %s, %s, %s, %s, %s)
+                ]
+[parameters: [(1, 'Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', 109.95, 'Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday', "men's clothing", 'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg', datetime.date(2024, 8, 19)), (2, 'Mens Casual Premium Slim Fit T-Shirts ', 22.3, 'Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and dieh', "men's clothing", 'https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg', datetime.date(2024, 8, 19)), (3, 'Mens Cotton Jacket', 55.99, 'great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, h', "men's clothing", 'https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg', datetime.date(2024, 8, 19)), (4, 'Mens Casual Slim Fit', 15.99, 'The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.', "men's clothing", 'https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg', datetime.date(2024, 8, 19)), (5, "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet", 695.0, "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.", 'jewelery', 'https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19)), (6, 'Solid Gold Petite Micropave ', 168.0, 'Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.', 'jewelery', 'https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19)), (7, 'White Gold Plated Princess', 9.99, "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...", 'jewelery', 'https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19)), (8, 'Pierced Owl Rose Gold Plated Stainless Steel Double', 10.99, 'Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel', 'jewelery', 'https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19))  ... displaying 10 of 20 total bound parameter sets ...  (19, "Opna Women's Short Sleeve Moisture", 7.95, '100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V', "women's clothing", 'https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg', datetime.date(2024, 8, 19)), (20, 'DANVOUY Womens T Shirt Casual Cotton Short', 12.99, '95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.', "women's clothing", 'https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg', datetime.date(2024, 8, 19))]]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2024-08-19 13:32:26,635 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 13:32:26,635 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 13:32:26,635 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 13:45:57,018 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 13:45:57,019 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 13:45:57,019 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 13:45:57,019 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 13:45:57,918 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title  ...                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts   ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 13:45:57,951 ::DataConnectionModule-> root - INFO - Datos anonimizados:    Id                                             Titulo  Precio  ...       Categoria                                             Imagen fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 7 columns]
+2024-08-19 13:45:57,951 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Id', 'Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 13:45:57,953 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 13:45:57,953 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 13:45:57,989 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 13:46:00,565 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 13:46:00,712 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 13:46:01,211 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: unsupported format character 'i' (0x69) at index 139
+2024-08-19 13:46:01,212 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 13:46:01,212 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 13:46:01,212 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 13:46:27,504 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 13:46:27,504 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 13:46:27,504 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 13:46:27,504 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 13:46:28,332 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title  ...                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts   ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 13:46:28,364 ::DataConnectionModule-> root - INFO - Datos anonimizados:    Id                                             Titulo  Precio  ...       Categoria                                             Imagen fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 7 columns]
+2024-08-19 13:46:28,364 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Id', 'Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 13:46:28,366 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 13:46:28,366 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 13:46:28,404 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 13:46:30,975 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 13:46:31,123 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 13:46:31,632 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: unsupported format character 'i' (0x69) at index 139
+2024-08-19 13:46:31,633 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 13:46:31,633 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 13:46:31,633 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 13:46:42,763 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 13:46:42,764 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 13:46:42,764 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 13:46:42,765 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 13:46:43,618 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title  ...                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts   ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 13:46:43,655 ::DataConnectionModule-> root - INFO - Datos anonimizados:    Id                                             Titulo  Precio  ...       Categoria                                             Imagen fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 7 columns]
+2024-08-19 13:46:43,656 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Id', 'Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 13:46:43,657 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 13:46:43,657 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 13:46:43,690 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 13:46:46,276 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 13:46:46,426 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 13:46:46,934 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: unsupported format character 'f' (0x66) at index 139
+2024-08-19 13:46:46,935 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 13:46:46,935 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 13:46:46,935 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 13:47:19,607 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 13:47:19,607 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 13:47:19,608 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 13:47:19,608 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 13:47:20,468 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title  ...                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts   ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 13:47:20,498 ::DataConnectionModule-> root - INFO - Datos anonimizados:    Id                                             Titulo  Precio  ...       Categoria                                             Imagen fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 7 columns]
+2024-08-19 13:47:20,498 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Id', 'Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 13:47:20,500 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 13:47:20,500 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 13:47:20,533 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 13:47:23,342 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 13:47:23,496 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 13:47:24,472 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: (psycopg2.errors.UndefinedColumn) column "price" of relation "productos" does not exist
+
+[SQL:   
+                INSERT INTO public.productos (title, price, description, category, image, fecha_ingesta)  
+                VALUES (%s, %s, %s, %s, %s, %s, %s)
+                ]
+[parameters: [(1, 'Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', 109.95, 'Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday', "men's clothing", 'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg', datetime.date(2024, 8, 19)), (2, 'Mens Casual Premium Slim Fit T-Shirts ', 22.3, 'Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and dieh', "men's clothing", 'https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg', datetime.date(2024, 8, 19)), (3, 'Mens Cotton Jacket', 55.99, 'great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, h', "men's clothing", 'https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg', datetime.date(2024, 8, 19)), (4, 'Mens Casual Slim Fit', 15.99, 'The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.', "men's clothing", 'https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg', datetime.date(2024, 8, 19)), (5, "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet", 695.0, "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.", 'jewelery', 'https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19)), (6, 'Solid Gold Petite Micropave ', 168.0, 'Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.', 'jewelery', 'https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19)), (7, 'White Gold Plated Princess', 9.99, "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...", 'jewelery', 'https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19)), (8, 'Pierced Owl Rose Gold Plated Stainless Steel Double', 10.99, 'Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel', 'jewelery', 'https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19))  ... displaying 10 of 20 total bound parameter sets ...  (19, "Opna Women's Short Sleeve Moisture", 7.95, '100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V', "women's clothing", 'https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg', datetime.date(2024, 8, 19)), (20, 'DANVOUY Womens T Shirt Casual Cotton Short', 12.99, '95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.', "women's clothing", 'https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg', datetime.date(2024, 8, 19))]]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2024-08-19 13:47:24,479 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 13:47:24,479 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 13:47:24,479 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 14:04:32,936 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 14:04:32,936 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 14:04:32,937 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 14:04:32,937 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 14:04:33,761 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title  ...                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts   ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 14:04:33,796 ::DataConnectionModule-> root - INFO - Datos anonimizados:    Id                                             Titulo  Precio  ...       Categoria                                             Imagen fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 7 columns]
+2024-08-19 14:04:33,797 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Id', 'Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 14:04:33,798 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 14:04:33,798 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 14:04:33,834 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 14:04:36,476 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 14:04:36,625 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 14:04:37,184 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: not all arguments converted during string formatting
+2024-08-19 14:04:37,184 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 14:04:37,185 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 14:04:37,185 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 14:11:54,240 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 14:11:54,240 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 14:11:54,240 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 14:11:54,240 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 14:11:55,236 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title  ...                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts   ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 14:11:55,270 ::DataConnectionModule-> root - INFO - Datos anonimizados:    Id                                             Titulo  Precio  ...       Categoria                                             Imagen fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 7 columns]
+2024-08-19 14:11:55,270 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Id', 'Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 14:11:55,271 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 14:11:55,271 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 14:11:55,305 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 14:11:57,916 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 14:11:58,060 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 14:11:58,578 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (1, 'Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops', 109.95, 'Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday', "men's clothing", 'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,579 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (2, 'Mens Casual Premium Slim Fit T-Shirts ', 22.3, 'Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and dieh', "men's clothing", 'https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,580 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (3, 'Mens Cotton Jacket', 55.99, 'great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, h', "men's clothing", 'https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,581 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (4, 'Mens Casual Slim Fit', 15.99, 'The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.', "men's clothing", 'https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,582 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (5, "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet", 695.0, "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.", 'jewelery', 'https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,582 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (6, 'Solid Gold Petite Micropave ', 168.0, 'Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.', 'jewelery', 'https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,583 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (7, 'White Gold Plated Princess', 9.99, "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...", 'jewelery', 'https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,584 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (8, 'Pierced Owl Rose Gold Plated Stainless Steel Double', 10.99, 'Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel', 'jewelery', 'https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,584 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (9, 'WD 2TB Elements Portable External Hard Drive - USB 3.0 ', 64.0, 'USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on ', 'electronics', 'https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,584 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (10, 'SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s', 109.0, 'Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making i', 'electronics', 'https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,585 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (11, 'Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5', 109.0, '3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable', 'electronics', 'https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,585 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (12, 'WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive', 114.0, "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty", 'electronics', 'https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,586 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (13, 'Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin', 599.0, '21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supp', 'electronics', 'https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,586 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (14, 'Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ', 999.99, '49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra', 'electronics', 'https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,586 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (15, "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats", 56.99, 'Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold we', "women's clothing", 'https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,587 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (16, "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket", 29.95, '100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAN', "women's clothing", 'https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,587 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (17, 'Rain Jacket Women Windbreaker Striped Climbing Raincoats', 39.99, 'Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it cov', "women's clothing", 'https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,588 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (18, "MBJ Women's Solid Short Sleeve Boat Neck V ", 9.85, '95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem', "women's clothing", 'https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,588 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (19, "Opna Women's Short Sleeve Moisture", 7.95, '100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V', "women's clothing", 'https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,589 ::DataConnectionModule-> root - ERROR - La tupla tiene un número incorrecto de elementos: (20, 'DANVOUY Womens T Shirt Casual Cotton Short', 12.99, '95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.', "women's clothing", 'https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg', datetime.date(2024, 8, 19))
+2024-08-19 14:11:58,590 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: not all arguments converted during string formatting
+2024-08-19 14:11:58,591 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 14:11:58,591 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 14:11:58,591 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 14:20:48,017 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 14:20:48,017 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 14:20:48,018 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 14:20:48,018 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 14:20:48,854 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title  ...                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts   ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 14:20:48,886 ::DataConnectionModule-> root - INFO - Datos anonimizados:    Id                                             Titulo  Precio  ...       Categoria                                             Imagen fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 7 columns]
+2024-08-19 14:20:48,886 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Id', 'Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 14:20:48,888 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 14:20:48,888 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 14:20:48,920 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 14:20:51,537 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 14:20:51,685 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 14:20:52,185 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: not all arguments converted during string formatting
+2024-08-19 14:20:52,186 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 14:20:52,186 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 14:20:52,186 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 14:25:30,375 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 14:25:30,376 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 14:25:30,377 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 14:25:30,377 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 14:25:31,216 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title  ...                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts   ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 14:25:31,241 ::DataConnectionModule-> root - INFO - Datos anonimizados:    Id                                             Titulo  Precio  ...       Categoria                                             Imagen fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 7 columns]
+2024-08-19 14:25:31,241 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Id', 'Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 14:25:31,241 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 14:25:31,241 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 14:25:31,280 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 14:25:33,911 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 14:25:34,060 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 14:25:34,566 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: name 'row' is not defined
+2024-08-19 14:25:34,567 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 14:25:34,567 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 14:25:34,567 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 14:26:17,880 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 14:26:17,880 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 14:26:17,881 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 14:26:17,881 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 14:26:20,298 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title  ...                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts   ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 14:26:20,333 ::DataConnectionModule-> root - INFO - Datos anonimizados:    Id                                             Titulo  Precio  ...       Categoria                                             Imagen fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 7 columns]
+2024-08-19 14:26:20,334 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Id', 'Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 14:26:20,335 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 14:26:20,335 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 14:26:20,369 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 14:26:22,967 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 14:26:23,126 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 14:26:23,625 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: not all arguments converted during string formatting
+2024-08-19 14:26:23,626 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 14:26:23,627 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 14:26:23,627 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 14:28:53,553 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 14:28:53,554 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 14:28:53,554 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 14:28:53,554 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 14:28:54,395 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title  ...                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts   ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 14:28:54,429 ::DataConnectionModule-> root - INFO - Datos anonimizados:    Id                                             Titulo  Precio  ...       Categoria                                             Imagen fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 7 columns]
+2024-08-19 14:28:54,429 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Id', 'Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 14:28:54,431 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 14:28:54,431 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 14:28:54,462 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 14:28:57,249 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 14:28:57,399 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 14:28:57,915 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: 'title'
+2024-08-19 14:28:57,916 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 14:28:57,916 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 14:28:57,916 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 14:29:54,050 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 14:29:54,050 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 14:29:54,050 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 14:29:54,050 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 14:29:55,297 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title  ...                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts   ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 14:29:55,330 ::DataConnectionModule-> root - INFO - Datos anonimizados:    Id                                             Titulo  Precio  ...       Categoria                                             Imagen fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 7 columns]
+2024-08-19 14:29:55,330 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Id', 'Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 14:29:55,330 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 14:29:55,330 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 14:29:55,361 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 14:29:58,019 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 14:29:58,172 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 14:29:58,675 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: not all arguments converted during string formatting
+2024-08-19 14:29:58,675 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 14:29:58,675 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 14:29:58,675 ::DataConnectionModule-> root - WARNING - No active connection to close.
+2024-08-19 14:36:18,388 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: fedepr2345_coderhouse
+2024-08-19 14:36:18,388 ::DataConnectionModule-> root - INFO - DataRetriever inicializada con endpoint: https://fakestoreapi.com/products
+2024-08-19 14:36:18,389 ::DataConnectionModule-> root - INFO - Empezando a anonimizar los datos.
+2024-08-19 14:36:18,389 ::DataConnectionModule-> root - INFO - Intentado recuperar data de la API.
+2024-08-19 14:36:19,060 ::DataConnectionModule-> root - INFO - Data obtenida:    id                                              title  ...                                              image                       rating
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  ...  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...  {'rate': 3.9, 'count': 120}
+1   2             Mens Casual Premium Slim Fit T-Shirts   ...  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...  {'rate': 4.1, 'count': 259}
+2   3                                 Mens Cotton Jacket  ...  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...  {'rate': 4.7, 'count': 500}
+3   4                               Mens Casual Slim Fit  ...  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...  {'rate': 2.1, 'count': 430}
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  ...  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...  {'rate': 4.6, 'count': 400}
+
+[5 rows x 7 columns]
+2024-08-19 14:36:19,098 ::DataConnectionModule-> root - INFO - Datos anonimizados:    Id                                             Titulo  Precio  ...       Categoria                                             Imagen fecha_ingesta
+0   1  Fjallraven - Foldsack No. 1 Backpack, Fits 15 ...  109.95  ...  men's clothing  https://fakestoreapi.com/img/81fPKd-2AYL._AC_S...    2024-08-19
+1   2             Mens Casual Premium Slim Fit T-Shirts    22.30  ...  men's clothing  https://fakestoreapi.com/img/71-3HjGNDUL._AC_S...    2024-08-19
+2   3                                 Mens Cotton Jacket   55.99  ...  men's clothing  https://fakestoreapi.com/img/71li-ujtlUL._AC_U...    2024-08-19
+3   4                               Mens Casual Slim Fit   15.99  ...  men's clothing  https://fakestoreapi.com/img/71YXzeOuslL._AC_U...    2024-08-19
+4   5  John Hardy Women's Legends Naga Gold & Silver ...  695.00  ...        jewelery  https://fakestoreapi.com/img/71pWzhdJNwL._AC_U...    2024-08-19
+
+[5 rows x 7 columns]
+2024-08-19 14:36:19,098 ::DataConnectionModule-> root - INFO - Anonymized data retrieved with columns: ['Id', 'Titulo', 'Precio', 'Descripcion', 'Categoria', 'Imagen', 'fecha_ingesta']
+2024-08-19 14:36:19,100 ::DataConnectionModule-> root - INFO - Configuración de conexión a Redshift: {'REDSHIFT_USERNAME': 'fedepr2345_coderhouse', 'REDSHIFT_PASSWORD': '5W9Nsos3e4', 'REDSHIFT_HOST': 'data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com', 'REDSHIFT_PORT': '5439', 'REDSHIFT_DBNAME': 'data-engineer-database'}
+2024-08-19 14:36:19,100 ::DataConnectionModule-> root - INFO - DataConn inicializado con el schema: public
+2024-08-19 14:36:19,134 ::DataConnectionModule-> root - INFO - Connecting to Redshift at data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com:5439 as fedepr2345_coderhouse
+2024-08-19 14:36:21,764 ::DataConnectionModule-> root - INFO - Connection created
+2024-08-19 14:36:21,915 ::DataConnectionModule-> root - INFO - Connection verified successfully.
+2024-08-19 14:36:22,437 ::DataConnectionModule-> root - ERROR - Error cargando datos a Redshift: not all arguments converted during string formatting
+2024-08-19 14:36:22,439 ::DataConnectionModule-> root - INFO - Connection to Redshift closed.
+2024-08-19 14:36:22,439 ::DataConnectionModule-> root - INFO - Data uploaded to -> fedepr2345_coderhouse.products
+2024-08-19 14:36:22,439 ::DataConnectionModule-> root - WARNING - No active connection to close.
