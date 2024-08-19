@@ -72,7 +72,6 @@ def load_data(df):
 
     logging.info(f"Redshift Connection Settings:: {config}")  
     
-    # Crear una instancia de DataConn  
     data_conn = DataConn(config=config, schema='public')  
 
     try:  

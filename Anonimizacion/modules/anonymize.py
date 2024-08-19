@@ -1,4 +1,3 @@
-from anonymizedf.anonymizedf import anonymize  
 import os
 from dotenv import load_dotenv
 import requests
@@ -7,14 +6,12 @@ import pandas as pd
 import logging
 from datetime import datetime 
 
-#Configuracion de logging para que aparezca .app.log
 logging.basicConfig(
     filename='app.log',
     filemode='a',
     format='%(asctime)s ::GetDataModule-> %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO)
 
-# Cargar las Variables de Entorno
 load_dotenv()  
 API = os.getenv('API')
 
@@ -24,7 +21,6 @@ class DataRetriever:
         logging.info("DataRetriever initialized with endpoint: %s", self.endpoint)  
 
     def retrieve_data(self):
-        # Metodo para obtener los datos de la API
         logging.info("Intentado recuperar data de la API.")  
         try:
             response = requests.get(self.endpoint)  
@@ -45,7 +41,6 @@ class DataRetriever:
             raise 
     
     def anonymize_data(self):
-        # Metodo para anonimizar los datos
         logging.info("Empezando a anonimizar los datos.")  
 
         try:
